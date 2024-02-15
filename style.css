@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@
 
 /* Main Container Styles */
 main {
-    padding: 50px 140px 50px 140px;
+    padding: 50px 110px 50px 110px;
 }
 
 /* Banner Section Styles */
@@ -34,6 +36,43 @@ main {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+    margin-top: 12px;
+}
+
+/* Category Section Styles */
+.category-container {
+    margin: 120px 0;
+}
+
+.category-container>h1 {
+    color: #F00;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.category-container>p {
+    color: #F00;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.category-container>h2 {
+    color: #070211;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.category-container>img {
+    display: block;
+    margin: 48px auto 0;
 }
 
 @media only screen and (min-width: 1536px) {
